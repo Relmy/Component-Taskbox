@@ -1,5 +1,8 @@
 import PropTypes from 'prop-types';
 
+/**
+ * Baseline implementation of Task
+ */
 export default function Task({
   task: { id, title, state },
   onArchiveTask,

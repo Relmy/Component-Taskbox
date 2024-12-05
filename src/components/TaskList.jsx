@@ -2,6 +2,9 @@ import PropTypes from 'prop-types';
 
 import Task from './Task';
 
+/**
+ * Base implementation of TaskList
+ */
 export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
   const events = {
     onPinTask,

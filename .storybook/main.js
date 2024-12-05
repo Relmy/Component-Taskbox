@@ -6,7 +6,7 @@ const config = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
-    '@storybook/addon-a11y', // Accessibility addon
+    '@storybook/addon-a11y', // Accessibility addon ✨
   ],
   framework: {
     name: '@storybook/react-vite',

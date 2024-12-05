@@ -2,6 +2,9 @@ import { fn } from '@storybook/test';
 
 import Task from './Task';
 
+/**
+ * Task stories file, contains component's states (Default, Pinned, Archived)
+ */
 export const ActionsData = {
   onArchiveTask: fn(),
   onPinTask: fn(),

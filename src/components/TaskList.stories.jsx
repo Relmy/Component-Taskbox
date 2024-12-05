@@ -2,6 +2,9 @@ import TaskList from './TaskList';
 
 import * as TaskStories from './Task.stories';
 
+/**
+ * TaskList stories file, contains component's states (Default, WithPinnedTasks, Loading, Empty)
+ */
 export default {
   component: TaskList,
   title: 'TaskList',
